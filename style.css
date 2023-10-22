@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto+Serif:opsz,wght@8..144,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+header {
+    height: 10vh;
+    display: flex;
+    background-color: black;
+    justify-content: flex-end;
+}
+
+.iconeInsta {
+    width: 2.5vw;
+    height: 5vh;
+}
+
+.iconeYoutube {
+    width: 2.5vw;
+    height: 5vh;
+}
+
+.iconeWhats {
+    width: 2.5vw;
+    height: 5vh;
+}
+
+.Redes {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+
+.Patinha{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.Logotipo {
+    width: 2,5vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+h2 {
+    color:#FFFFFF;
+    text-align: left;
+    font-family: 'Roboto Serif', serif;
+    font-size: 20px;
+    margin-left: 1%;
+}
