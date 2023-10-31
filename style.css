@@ -1,59 +1,214 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto+Serif:opsz,wght@8..144,700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto+Serif:opsz,wght@8..144,400;8..144,700&family=Roboto:wght@300&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', serif;
 } 
 
 header {
     height: 10vh;
-    display: flex;
     background-color: black;
+    display: flex;
     justify-content: flex-end;
-}
-
-.iconeInsta {
-    width: 2.5vw;
-    height: 5vh;
-}
-
-.iconeYoutube {
-    width: 2.5vw;
-    height: 5vh;
-}
-
-.iconeWhats {
-    width: 2.5vw;
-    height: 5vh;
-}
+    }
 
 .Redes {
     width: 30%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-direction: column;
+    }
+
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        height: 5vh;
+        
+    }
+
+    .Redes img {
+        width: 3vw;
     }
 
 .Patinha{
     width: 70%;
     display: flex;
     align-items: center;
-}
+    margin-left: 3%;
+    }
 
 .Logotipo {
-    width: 2,5vw;
+    width: 3vw;
     height: 5vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 5%;
-}
+    }
 
-h2 {
+header h2 {
     color:#FFFFFF;
     text-align: left;
-    font-family: 'Roboto Serif', serif;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 1%;
-}
+    }
+
+.Bloco1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url("./imagens/DoguinhoCenter.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }    
+
+h1 {
+    color: white;
+    height: 25vh;
+    display: flex;
+    align-items: end;
+    font-size: 60px;
+    width: 35%;
+    text-align: center;
+    }
+
+.pata {
+    height:20vh;
+    width: 10%;
+    margin-top: 5%;   
+   }
+
+   .Bloco2 {
+    height: 125vh;
+    background-image: url("./imagens/DoguinhoFinal.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+         }
+
+   h2{
+    font-size: 60px;
+    color: #252525;
+    margin-left: 2.5%
+    }
+    
+   p {
+    color: #252525;
+    font-size: 35px;
+    margin-left: 2.5%;
+    width: 35%;
+    margin-top: 2.5%;
+     }
+
+     input {
+        width: 12vw;
+        height: 8vh;
+        border-radius: 35px;
+        color: white;
+        background-color: #3A342F;
+        font-size: 1.5rem;
+        margin-left: 2.5%;
+        margin-top: 2.5%;
+        }
+
+    .Bloco3 {
+        height: 100vh;
+        width: 100%;
+        background-image: url("./imagens/DoguinhoInicio.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right top; 
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;         
+        }
+
+    .tituloMordomia {
+        color: #FFFFFF;
+        font-size: 60px;
+        width: 30%;
+        margin-left: 95vh;
+        }
+
+    .textoMordomia {
+        color: #FFFFFF;
+        margin-left: 105vh;
+            }
+
+    .Fale2 {
+        background-color: #FFFFFF;
+        color: #252525;
+        font-weight: bold;    
+        margin-left: 55vh;     
+    }
+
+    .Patrocinadores {
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        }
+
+     h4 {
+        color: #FD6A9A;
+        width: 20%;
+        font-size: 36px;
+        font-weight: lighter;
+        margin-left: 15%;
+     }
+
+     .Empresas {
+        width: 70%;
+     }
+
+     ul {
+        list-style: none;
+        display: flex; 
+     }
+
+     footer {
+        height: 45vh;
+        display: flex;
+        justify-content: space-around;
+        background-color: #FD6A9A;
+        color: #FFFFFF;
+        width: 100%;
+        
+    }
+
+    li {
+        list-style: none;
+    }
+
+    footer nav {
+        width: 10%;
+        height: 45vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+       .Atendimento, .Sobre, .Unidades {
+        color: #FFFFFF;
+        margin-bottom: 10%;
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    @media screen and (max-width: 600px) {
+
+
+    }    
+    
+
+     
