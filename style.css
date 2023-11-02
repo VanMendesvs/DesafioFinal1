@@ -9,13 +9,17 @@
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Serif', serif;
 } 
-
+/*Inicia estilizaçao Header*/
 header {
     height: 10vh;
     background-color: black;
     display: flex;
     justify-content: flex-end;
     }
+
+.LogoMob, .Mobile {
+    display: none;
+}
 
 .Redes {
     width: 30%;
@@ -26,15 +30,15 @@ header {
     flex-direction: column;
     }
 
-    ul{
+ul{
         width: 100%;
         display: flex;
         justify-content: space-evenly;
         height: 5vh;
-        
+
     }
 
-    .Redes img {
+.Redes img {
         width: 3vw;
     }
 
@@ -57,6 +61,7 @@ header h2 {
     margin-left: 1%;
     }
 
+/*Inicio parte principal Parte 1*/
 .Bloco1 {
     height: 100vh;
     width: 100%;
@@ -75,7 +80,7 @@ h1 {
     display: flex;
     align-items: end;
     font-size: 60px;
-    width: 35%;
+    width: 31%;
     text-align: center;
     }
 
@@ -84,8 +89,8 @@ h1 {
     width: 10%;
     margin-top: 5%;   
    }
-
-   .Bloco2 {
+/*Inicio parte principal Parte 2*/
+.Bloco2 {
     height: 125vh;
     background-image: url("./imagens/DoguinhoFinal.png");
     background-position: center;
@@ -96,13 +101,13 @@ h1 {
     justify-content: center;
          }
 
-   h2{
+h2{
     font-size: 60px;
     color: #252525;
-    margin-left: 2.5%
+    margin-left: 2.5%;
     }
     
-   p {
+p {
     color: #252525;
     font-size: 35px;
     margin-left: 2.5%;
@@ -110,7 +115,7 @@ h1 {
     margin-top: 2.5%;
      }
 
-     input {
+input {
         width: 12vw;
         height: 8vh;
         border-radius: 35px;
@@ -120,8 +125,8 @@ h1 {
         margin-left: 2.5%;
         margin-top: 2.5%;
         }
-
-    .Bloco3 {
+/*Inicio parte principal Parte 3*/
+.Bloco3 {
         height: 100vh;
         width: 100%;
         background-image: url("./imagens/DoguinhoInicio.png");
@@ -129,55 +134,56 @@ h1 {
         background-repeat: no-repeat;
         background-position: right top; 
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
         justify-content: center;
-        align-items: center;         
+        align-items: flex-end;         
         }
 
-    .tituloMordomia {
+.tituloMordomia {
         color: #FFFFFF;
         font-size: 60px;
         width: 30%;
-        margin-left: 95vh;
+        margin-right: 5%;
         }
 
-    .textoMordomia {
+.textoMordomia {
         color: #FFFFFF;
-        margin-left: 105vh;
-            }
-
-    .Fale2 {
+          }
+    
+.Bloco3 input {
         background-color: #FFFFFF;
         color: #252525;
-        font-weight: bold;    
-        margin-left: 55vh;     
+        font-weight: bold; 
+        margin-right: 20%;         
     }
 
-    .Patrocinadores {
+/*Inicio parte principal Patrocinadores*/
+.Patrocinadores {
         width: 100%;
         height: 15vh;
         display: flex;
         align-items: center;
         }
 
-     h4 {
+h4 {
         color: #FD6A9A;
         width: 20%;
         font-size: 36px;
         font-weight: lighter;
         margin-left: 15%;
+        font-style: italic;
      }
 
-     .Empresas {
+.Empresas {
         width: 70%;
      }
 
-     ul {
+ul {
         list-style: none;
         display: flex; 
      }
-
-     footer {
+    /*Inicio Rodape*/
+footer {
         height: 45vh;
         display: flex;
         justify-content: space-around;
@@ -187,11 +193,11 @@ h1 {
         
     }
 
-    li {
+li {
         list-style: none;
     }
 
-    footer nav {
+footer nav {
         width: 10%;
         height: 45vh;
         display: flex;
@@ -204,11 +210,120 @@ h1 {
         font-weight: bold;
         font-size: 2.5rem;
     }
+/*Inicio responsivo*/
 
-    @media screen and (max-width: 600px) {
+@media (max-width: 600px) {
+/*Header responsivo*/   
+header { 
+            background-color: black;
+            height: 15vh; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            } 
+.LogoMob {
+            display: initial;
+            width: 70%;
+            }
+.YT, .Insta, .Logotipo, header h2, .Redes {
+                display: none;
+            }
+.Mobile {
+        display: initial;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        }  
+section {
+        width: 70%;
+        height: 15vh;
+        }
+/*Parte 1 responsivo*/    
+.Bloco1 {
+        background-image: url(./assetsMobile/DogMob1.png);
+    } 
+h1 {
+        width: 90%;
+        height: 20vh;
+        font-size: 3rem;
+    }
+.pata {
+        height: 25vh;
+        width: 20%;
+        }
+/*Parte 2 responsivo*/    
+.Bloco2 {
+        background-image: url(./assetsMobile/DogMob2.png);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: flex-start;
+        }
 
+h2 {
+        font-size: 50px;
+        height: 10%;
+        margin-top: 10%;
+        }
+p {
+        color: #252525;
+        font-size: 30px;
+        width: 85%;
+        }
+input {
+        width: 30%;
+        height: 8vh;
+        border-radius: 35px;
+        color: white;
+        background-color: #3A342F;
+        font-size: 1.5rem;
+        }
+/*Parte 3 responsivo*/
+.Bloco3 {
+    background-image: url(./assetsMobile/DogMob3.png);
+    background-position: center;
+    background-size: cover;
+    height: 125vh;
+    width: 100%; 
+    display: flex;
+    align-items: flex-start; 
+    justify-content: flex-start;  
+    }
 
-    }    
+.tituloMordomia {
+    color: #FFFFFF;
+    font-size: 50px;
+    width: 100%;
+    margin-left: 3%;
+    margin-top: 20%;
+    }
+.textoMordomia {
+    color: #FFFFFF;
+    margin-left: 3%;
+}
+/*Patrocinadores responsivo*/
+.Patrocinadores {
+    height: 25vh;
+    border: solid pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h4 {
+    color: #FD6A9A;
+    font-size: 24px;
+    height: 7vh;
+    width: 35%;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 2%;
+}
+/*Footer responsivo*/
+
+  
     
+}
 
-     
