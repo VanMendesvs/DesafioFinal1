@@ -242,12 +242,13 @@ section {
 /*Parte 1 responsivo*/    
 .Bloco1 {
         background-image: url(./assetsMobile/DogMob1.png);
+        height: 130vh;
     } 
 h1 {
         width: 90%;
-        height: 20vh;
+        height: 25vh;
         font-size: 3rem;
-    }
+            }
 .pata {
         height: 25vh;
         width: 20%;
@@ -257,8 +258,8 @@ h1 {
         background-image: url(./assetsMobile/DogMob2.png);
         background-position: center;
         background-size: cover;
-        height: 110vh;
-        width: 100vw;
+        height: 130vh;
+        width: 100%;
         display: flex;
         justify-content: flex-start;
         }
@@ -274,7 +275,7 @@ p {
         width: 85%;
         }
 input {
-        width: 30%;
+        width: 50%;
         height: 8vh;
         border-radius: 35px;
         color: white;
@@ -286,7 +287,7 @@ input {
     background-image: url(./assetsMobile/DogMob3.png);
     background-position: center;
     background-size: cover;
-    height: 125vh;
+    height: 140vh;
     width: 100%; 
     display: flex;
     align-items: flex-start; 
@@ -298,7 +299,7 @@ input {
     font-size: 50px;
     width: 100%;
     margin-left: 3%;
-    margin-top: 20%;
+    margin-top: 15%;
     }
 
 .textoMordomia {
