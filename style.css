@@ -250,7 +250,7 @@ h1 {
         font-size: 3rem;
             }
 .pata {
-        height: 25vh;
+        height: 18vh;
         width: 20%;
         }
 /*Parte 2 responsivo*/    
@@ -258,7 +258,7 @@ h1 {
         background-image: url(./assetsMobile/DogMob2.png);
         background-position: center;
         background-size: cover;
-        height: 130vh;
+        height: 140vh;
         width: 100%;
         display: flex;
         justify-content: flex-start;
@@ -271,7 +271,7 @@ h2 {
         }
 p {
         color: #252525;
-        font-size: 30px;
+        font-size: 25px;
         width: 85%;
         }
 input {
@@ -324,6 +324,9 @@ h4 {
     font-weight: bold;
     font-style: italic;
     margin-top: 2%;
+}
+.Empresas {
+    width: 100%;
 }
 /*Footer responsivo*/
 
