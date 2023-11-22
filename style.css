@@ -11,7 +11,7 @@
 } 
 /*Inicia estilizaçao Header*/
 header {
-    height: 10vh;
+    height: 12vh;
     background-color: black;
     display: flex;
     justify-content: flex-end;
@@ -79,9 +79,10 @@ h1 {
     height: 25vh;
     display: flex;
     align-items: end;
-    font-size: 60px;
-    width: 31%;
+    font-size: 45px;
+    width: 50%;
     text-align: center;
+    border: solid red;
     }
 
 .pata {
@@ -91,7 +92,7 @@ h1 {
    }
 /*Inicio parte principal Parte 2*/
 .Bloco2 {
-    height: 125vh;
+    height: 130vh;
     background-image: url("./imagens/DoguinhoFinal.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -116,7 +117,7 @@ p {
      }
 
 input {
-        width: 12vw;
+        width: 25vw;
         height: 8vh;
         border-radius: 35px;
         color: white;
@@ -143,18 +144,20 @@ input {
         color: #FFFFFF;
         font-size: 60px;
         width: 30%;
-        margin-right: 5%;
+        margin-right:10%;
         }
 
 .textoMordomia {
         color: #FFFFFF;
+        margin-right:6%;
+        font-size: 30px;
           }
     
 .Bloco3 input {
         background-color: #FFFFFF;
         color: #252525;
         font-weight: bold; 
-        margin-right: 20%;         
+        margin-right: 18%;         
     }
 
 /*Inicio parte principal Patrocinadores*/
